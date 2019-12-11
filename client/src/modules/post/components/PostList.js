@@ -16,6 +16,9 @@ export default class PostList extends Component {
                     <Card key={post._id} body outline className="post-card">
                         <CardTitle>{post.title}</CardTitle>
                         <CardBody>{post.content}</CardBody>
+                        <CardBody>{post.adress}</CardBody>
+
+
                     </Card>
                 );
             });
